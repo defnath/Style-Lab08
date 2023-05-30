@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo082023A.CascadingStyleSheets">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="Assets/estilos.css" />
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Margin="20">
+            <StackLayout Orientation="Vertical">
+                <Label x:Name="title" Text="Completar Datos"></Label>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Entry Placeholder="Ingrese correo"></Entry>
+                <Entry Placeholder="Ingrese nombre"></Entry>
+                <Entry Placeholder="Ingrese contraseña" ></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <CheckBox></CheckBox>
+                <Label Text="Confirmar datos"></Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="giveup" Text="Cancelar"></Button>
+                <Button x:Name="signup" Text="Confirmar"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

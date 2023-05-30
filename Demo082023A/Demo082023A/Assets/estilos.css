@@ -1,0 +1,44 @@
+﻿^contentpage {
+    background-color: navajowhite
+} 
+entry {
+    color: black;
+}
+
+label {
+    color: white;
+    font-size: medium;
+}
+
+#signup {
+    background-color: #64ff64d9;
+    border-radius: 30;
+    border: 1 solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20;
+    padding: 16 31;
+    text-decoration: none;
+    text-shadow: 0 1 0 #194f2c;
+}
+#giveup {
+    background-color: #FF0000;
+    border-radius: 28;
+    border: 1 solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17;
+    padding: 16 31;
+    text-decoration: none;
+    text-shadow: 0 1 0 #194f2c;
+}
+
+#title {
+    color: black;
+    font-size: large;
+    text-align: center;
+}
